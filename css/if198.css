@@ -1,0 +1,80 @@
+/*attributes for common*/
+
+.faded
+{
+	font-size: 18px;
+	max-width: 65vw;
+	color: #999999;
+}
+
+
+/*attributes for main*/
+.mainPane
+{
+	margin-left: 410px;
+	margin-top: 50px;
+
+}
+
+.mainPane p#CSW
+{
+	font-size: 65px;
+    font-weight: 100;
+}
+
+
+
+.mainPane #firstExplain
+{
+	width: 45vw;
+}
+
+.dropbox
+{
+	background-color: #ACACAC;
+	width: 45vw;
+	height: 90vh;
+	border-radius: 15px;
+	position: absolute;
+}
+
+.slot
+{
+	margin-top: 5%;
+	margin-left: 4.7vw;
+	width: 35vw;
+	background-color: #6b6b6b;
+	border-color: #474747;
+	border-radius: 15px;
+	
+	border-top-width: 2px;
+	border-left-width: 1px;
+	border-bottom-width: 5px;
+	border-right-width: 4px;
+	border-style: solid;
+}
+
+.slottext
+{
+	font-style: italic;
+	font-size: 50px;
+	text-align: center;
+	font-weight: 200;
+}
+
+/*media query section*/
+
+@media screen and (max-width: 1350px) {
+
+  .mainPane
+  {
+    margin-left: 410px;
+
+  }
+  .mainPane p#CSW
+  {
+    font-size: 60px;
+  }
+
+}
+

@@ -1,0 +1,33 @@
+.topnav {
+  background-color: #003459;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+@keyframes hovering {
+  from
+  {
+    background-color: #003459;
+  }
+
+  to 
+  {
+    background-color: #587893;
+    color: #8c8c8c;
+  }
+}
+
+
+
+
+#LogOutButton:hover
+{
+
+  animation-name: hovering;
+  animation-duration: 0.45s;
+  border-radius: 6px;
+  background-color: #587893;
+}
+
+/* Change the color of links on hover */
+

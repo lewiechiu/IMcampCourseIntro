@@ -75,7 +75,8 @@ body.fade-out {
 	width: 100%;
 	background-color: #E1E6EA;
 	flex-direction: column;
-  padding: 120px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .introHeader
@@ -111,6 +112,12 @@ body.fade-out {
     font-weight: 300;
     font-size: 30px;
     text-align: center;
+    color: red;
+  }
+  #intro .container .h6
+  {
+    font-size: 15px;
+    font-weight: 200;
   }
 
 }
@@ -178,11 +185,23 @@ body.fade-out {
   font-size: 20px;
 }
 
+/* second part of compulsory course */
+
+
+#compulsory .container .order-2 .col-md-6 a img
+{
+  margin-top: 70px;
+}
+
+#secondCompulsory .container .text-muted
+{
+
+  margin-bottom: 50px;
+}
 
 @media screen and (max-width: 1199.98px) {
   #compulsory .container .row .container .text-center
   {
-    color: blue;
     font-weight: 300;
     font-size: 38px;
     margin-top: 0px;
@@ -199,7 +218,7 @@ body.fade-out {
 @media screen and (max-width: 991.98px) {
   #compulsory .container .row .container .text-center
   {
-    color: white;
+
     font-weight: 300;
     font-size: 38px;
     margin-top: 0px;
@@ -217,17 +236,33 @@ body.fade-out {
 @media screen and (max-width: 767.98px) {
   #compulsory .container .row .container .text-center
   {
-    color: red;
     font-weight: 300;
     font-size: 38px;
-    margin-top: 0px;
-    padding-top: 20px;
+    margin-top: -25px;
+    padding-top: 0px;
   }
   #compulsory .container .row .container .text-muted
   {
     font-weight: 100;
     margin-top: 5px;
     font-size: 14px;
+  }
+  #secondCompulsory .col-md-6 a img
+  {
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+
+  #secondCompulsory .container .text-center
+  {
+
+    margin-bottom: 20px;
+  }
+  #secondCompulsory .container .text-muted
+  {
+
+    margin-top: 100px;
+    margin-bottom: 50px;
   }
 }
 

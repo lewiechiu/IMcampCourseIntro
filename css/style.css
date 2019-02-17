@@ -104,6 +104,18 @@ body.fade-out {
   width: 90px;
 }
 
+
+@media screen and (max-width: 991.98px) {
+  .introHeader
+  {
+    font-weight: 300;
+    font-size: 30px;
+    text-align: center;
+  }
+
+}
+
+
 /*im-highlihgt*/
 
 .im-highlihgt

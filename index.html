@@ -10,7 +10,7 @@
 
     <!-- Fonts CSS -->
 		<link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC:300" rel="stylesheet">
-		
+		<!--  -->
 		<!-- slick carousel CSS -->
 		<link rel="stylesheet" href="node_modules/owl.carousel/dist/assets/owl.carousel.min.css" />
 		
@@ -62,22 +62,22 @@
 		</div>
 		<div class="row">
 			<div class="container col-12 col-sm-12 col-md-6 col-lg-3 text-white feature-item">
-				<img src="assignment.png" class="mx-auto d-block" alt="">
+				<img src="picture/assignment.png" class="mx-auto d-block" alt="">
 				<p class="h4 chineseText text-center" >有點重要的字</p>
 				<p class="h6 chineseText text-center">解釋一下教內去麼著確夠官行謝從的不環會品每</p>
 			</div>
 			<div class="container col-12  col-sm-12 col-md-6 col-lg-3 text-white feature-item">
-				<img src="QandA.png" class="mx-auto d-block" alt="">
+				<img src="picture/QandA.png" class="mx-auto d-block" alt="">
 				<p class="h4 chineseText text-center" >有點重要的字</p>
 				<p class="h6 chineseText text-center">解釋一下教內去麼著確夠官行謝從的不環會品每</p>
 			</div>
 			<div class="container col-12  col-sm-12 col-md-6 col-lg-3 text-white feature-item">
-				<img src="HTTP.png" class="mx-auto d-block" alt="">
+				<img src="picture/HTTP.png" class="mx-auto d-block" alt="">
 				<p class="h4 chineseText text-center" >有點重要的字</p>
 				<p class="h6 chineseText text-center">解釋一下教內去麼著確夠官行謝從的不環會品每</p>
 			</div>
 			<div class="container col-12  col-sm-12 col-md-6 col-lg-3 text-white feature-item">
-				<img src="HTTP.png" class="mx-auto d-block" alt="">
+				<img src="picture/HTTP.png" class="mx-auto d-block" alt="">
 				<p class="h4 chineseText text-center" >有點重要的字</p>
 				<p class="h6 chineseText text-center">解釋一下教內去麼著確夠官行謝從的不環會品每</p>
 			</div>
@@ -98,7 +98,7 @@
 			<div class="order-1 row justify-content-center" id="firstCompulsory">
 				<div class="col-md-6 ">
 					<a href="html_css.html">
-						<img src="html_css.png" alt="" class="w-100 lazy">
+						<img src="picture/html_css.png" alt="" class="w-100 lazy">
 					</a>
 				</div>
 				<div class="col-md-6 container">
@@ -110,7 +110,7 @@
 			<div class="order-2 row justify-content-center flex-row-reverse" id="secondCompulsory">
 				<div class="col-md-6 ">
 					<a href="python_page.html">
-						<img src="python-logo.png" alt="" class="w-100 lazy">
+						<img src="picture/python-logo.png" alt="" class="w-100 lazy">
 					</a>
 				</div>
 				<div class="col-md-6 container">
@@ -221,20 +221,35 @@
 	    </div>
 	  </div>
 	</section>
+</body>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <script type="text/javascript" src="javascript/bs.js"></script>
-		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-		
-		<!-- requiring slick js -->
-		<script src="node_modules/jquery/dist/jquery.js"></script>
-		<script src="node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/5.8.4/firebase.js"></script>
+	<script>
+		// Initialize Firebase
+		var config = {
+			apiKey: "AIzaSyBOV7RzTrQipvAPE2y7IOKU3E2hIx6fb-M",
+			authDomain: "im-camp-course-database.firebaseapp.com",
+			databaseURL: "https://im-camp-course-database.firebaseio.com",
+			projectId: "im-camp-course-database",
+			storageBucket: "im-camp-course-database.appspot.com",
+			messagingSenderId: "223124322478"
+		};
+		firebase.initializeApp(config);
+	</script>
+
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="javascript/bs.js"></script>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	
+	<!-- requiring slick js -->
+	<script src="node_modules/jquery/dist/jquery.js"></script>
+	<script src="node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
 
 
-  </body>
+  
 </html>

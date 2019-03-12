@@ -95,7 +95,7 @@ body.fade-out {
         text-align: center;
     }
     .intro-explain{
-        font-size: 15px;
+        font-size: 17px;
         color: #e8edfc;
     }
 }
@@ -113,12 +113,24 @@ body.fade-out {
     margin-bottom: 60px;
 }
 
+#instructor .container div{
+    margin-bottom: 30px;
+
+}
+
 .head-shot
 {
 
     height: 100%;
     border-radius: 80%;
 }
+@media screen and (max-width: 767.98px) {
+
+    .head-shot{
+        margin-bottom: 30px;
+    }
+}
+
 @media screen and (max-width: 767.98px) {
 
     .head-shot{
@@ -138,11 +150,3 @@ body.fade-out {
     font-weight: 600;
     margin-bottom: 20px;
 }
-
-@media screen and (max-width: 767.98px) {
-
-    #instructor div div div h5{
-        font-size: 16px;
-    }
-}
-

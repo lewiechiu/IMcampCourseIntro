@@ -7,8 +7,10 @@ $(function () {
 
 
 
-
 $(document).ready(function(){
+
+
+
   console.log(123);
   var owl = $('.owl-carousel');
   if ($(window).width() < 960){
@@ -36,6 +38,14 @@ $(document).ready(function(){
       autoplayTimeout:3000,
       autoplayHoverPause:true
   });
-  }
-  
+  }  
+
+  $('.elective-courses').mousedown(function(e){
+    console.log("clicked:"+$(this).attr('id'));
+    var file_location = "courses/" + $(this).attr('id') + ".html";
+    window.open(file_location);
+    
+  });
+
 });
+

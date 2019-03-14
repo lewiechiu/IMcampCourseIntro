@@ -42,7 +42,7 @@
 		<div class="container">
 			<h2 class="display-3 chineseText" >資管營課程網站</h2>
 			<hr id="jumboline" class="my-3">
-			<p class="text-muted chineseText">這裡會介紹課程</p>
+			<p class="chineseText">介紹資管營必修與選修課程</p>
 		</div>
 	</div>
 	<section id="intro">
@@ -127,59 +127,60 @@
 
 	<section id="courses">
 		<div class="container">
-			<p class="text-center chineseText text-black sub-heading h4" >Related Courses</p>
-			<p class="text-center chineseText text-black h1"> Discover and Look into Courses</p>
+			<p class="text-center chineseText text-black sub-heading h5" >選修課程</p>
+			<p class="text-center chineseText text-black h2">點進課程以了解更多</p>
 			<hr class="bar" style="border-color: black;">
 			<div class="owl-carousel">
-				<a  id="algorithm" class="elective-courses">
+				<a  id="algorithm" class="elective-courses item" href="courses/algorithm.html">
 					<img src="https://picsum.photos/g/300/200/?image=1056" alt="">
 					<div class="overlay">
 						<p class="centered text-white picture-course chineseText">演算法</p>
 					</div>
 				</a>
-				<a id="or" class="elective-courses">
+				<a id="or" class="elective-courses item" href="courses/or.html">
 					<img src="https://picsum.photos/g/300/200/?image=1057" alt="">
 					<div class="overlay">
 						<p class="centered text-white picture-course chineseText">作業研究</p>
 					</div>
 				</a>
-				<a id="stats" class="elective-courses">
+				<a id="stats" class="elective-courses item" href="courses/stats.html">
 					<img src="https://picsum.photos/g/300/200/?image=1058" alt="">
 					<div class="overlay">
-						<p class="centered text-white picture-course chineseText">統計</p>
+					<p class="centered text-white picture-course chineseText">統計</p>
 					</div>
 				</a>
-				<a id="adv_py" class="elective-courses">
+				<a id="adv_py" class="elective-courses item" href="courses/or.html">
 					<img src="https://picsum.photos/g/300/200/?image=1051" alt="">
 					<div class="overlay">
 						<p class="centered text-white picture-course chineseText">進階python</p>
 					</div>
 				</a>
-				<a id="case_study" class="elective-courses">
+				<a id="case_study" class="elective-courses item" href="courses/case_study.html">
 					<img src="https://picsum.photos/g/300/200/?image=1049" alt="">
 					<div class="overlay">
 						<p class="centered text-white picture-course chineseText">個案分析</p>
 					</div>
 				</a>
-				<a id="intro_comput" class="elective-courses">
+				<a id="intro_comput" class="elective-courses item" href="courses/intro_comput.html">
 					<img src="https://picsum.photos/g/300/200/?image=1014" alt="">
 					<div class="overlay">
 						<p class="centered text-white picture-course chineseText">計算機概論</p>
 					</div>
 				</a>
-				<a id="music_appreciate" class="elective-courses">
+				<a id="music_appreciate" class="elective-courses" href="courses/music_appreciate.html">
 					<img src="https://picsum.photos/g/300/200/?image=1045" alt="">
 					<div class="overlay">
 						<p class="centered text-white picture-course chineseText">音樂作品欣賞</p>
 					</div>
 				</a>
-				<a id="machine_learning" class="elective-courses">
+				<a id="machine_learning" class="elective-courses" href="courses/machine_learning.html">
 					<img src="https://picsum.photos/g/300/200/?image=1033" alt="">
 					<div class="overlay">
 						<p class="centered text-white picture-course chineseText">機器學習演講</p>
 					</div>
 				</a>
 			</div>
+
 		</div>
 	</section>
 	<!-- <section id="Selection">
@@ -206,18 +207,6 @@
 </body>
 
 	<script src="https://www.gstatic.com/firebasejs/5.8.4/firebase.js"></script>
-	<script>
-		// Initialize Firebase
-		var config = {
-			apiKey: "AIzaSyBOV7RzTrQipvAPE2y7IOKU3E2hIx6fb-M",
-			authDomain: "im-camp-course-database.firebaseapp.com",
-			databaseURL: "https://im-camp-course-database.firebaseio.com",
-			projectId: "im-camp-course-database",
-			storageBucket: "im-camp-course-database.appspot.com",
-			messagingSenderId: "223124322478"
-		};
-		firebase.initializeApp(config);
-	</script>
 
 	<!-- Optional JavaScript -->
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -230,7 +219,7 @@
 	
 	<!-- requiring slick js -->
 	<script src="node_modules/jquery/dist/jquery.js"></script>
-	<script src="node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
+	<script src="node_modules/owl.carousel/dist/owl.carousel.js"></script>
 
 
   

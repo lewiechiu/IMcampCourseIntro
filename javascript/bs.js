@@ -40,12 +40,12 @@ $(document).ready(function(){
   });
   }  
 
-  $('.elective-courses').mousedown(function(e){
-    console.log("clicked:"+$(this).attr('id'));
-    var file_location = "courses/" + $(this).attr('id') + ".html";
-    window.open(file_location);
+  // $('.elective-courses').mousedown(function(e){
+  //   console.log("clicked:"+$(this).attr('id'));
+  //   var file_location = "courses/" + $(this).attr('id') + ".html";
+  //   window.open(file_location);
     
-  });
+  // });
 
 });
 

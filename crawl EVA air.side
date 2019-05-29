@@ -1,0 +1,288 @@
+{
+  "id": "355e315d-cdd8-457d-af41-f349e1a8fd01",
+  "version": "2.0",
+  "name": "crawl EVA air",
+  "url": "https://booking.evaair.com",
+  "tests": [{
+    "id": "85924263-995a-4d5a-b93e-d1cdb31df36d",
+    "name": "click test",
+    "commands": [{
+      "id": "6172573c-af4f-4edf-90b2-615bd74081f0",
+      "comment": "",
+      "command": "open",
+      "target": "/flyeva/eva/b2c/booking-online.aspx?lang=zh-tw",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2423f2fa-8ca5-4ce0-abe2-2b57710d403e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "2576x1456",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a0646bc4-8de0-45b5-99c9-d34f1b8e339e",
+      "comment": "",
+      "command": "click",
+      "target": "id=MainContent_txt_To",
+      "targets": [
+        ["id=MainContent_txt_To", "id"],
+        ["name=ctl00$MainContent$txt_To", "name"],
+        ["css=#MainContent_txt_To", "css:finder"],
+        ["xpath=//input[@id='MainContent_txt_To']", "xpath:attributes"],
+        ["xpath=//article[@id='content']/section[2]/div[4]/fieldset/div/table/tbody/tr[3]/td[2]/div/input", "xpath:idRelative"],
+        ["xpath=//td[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7e0ff96-78aa-4ebc-bd06-1b696257c145",
+      "comment": "",
+      "command": "clickAt",
+      "target": "id=MainContent_txt_To",
+      "targets": [
+        ["id=MainContent_txt_To", "id"],
+        ["name=ctl00$MainContent$txt_To", "name"],
+        ["css=#MainContent_txt_To", "css:finder"],
+        ["xpath=//input[@id='MainContent_txt_To']", "xpath:attributes"],
+        ["xpath=//article[@id='content']/section[2]/div[4]/fieldset/div/table/tbody/tr[3]/td[2]/div/input", "xpath:idRelative"],
+        ["xpath=//td[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6eb6559d-2a85-4f02-8fdf-e7b2588aa209",
+      "comment": "",
+      "command": "click",
+      "target": "id=MainContent_lit_date1",
+      "targets": [
+        ["id=MainContent_lit_date1", "id"],
+        ["name=ctl00$MainContent$lit_date1", "name"],
+        ["css=#MainContent_lit_date1", "css:finder"],
+        ["xpath=//input[@id='MainContent_lit_date1']", "xpath:attributes"],
+        ["xpath=//article[@id='content']/section[2]/div[4]/fieldset/div/table/tbody/tr[5]/td/div/input", "xpath:idRelative"],
+        ["xpath=//tr[5]/td/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a460eabd-537e-46cc-8416-8951d918b0a8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.active .next",
+      "targets": [
+        ["css=.active .next", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='datepickers-container']/div/nav/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'下頁')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "27a76b4e-b008-4b54-ba7f-ccbdc8743d39",
+      "comment": "",
+      "command": "click",
+      "target": "id=MainContent_lit_date1",
+      "targets": [
+        ["id=MainContent_lit_date1", "id"],
+        ["name=ctl00$MainContent$lit_date1", "name"],
+        ["css=#MainContent_lit_date1", "css:finder"],
+        ["xpath=//input[@id='MainContent_lit_date1']", "xpath:attributes"],
+        ["xpath=//article[@id='content']/section[2]/div[4]/fieldset/div/table/tbody/tr[5]/td/div/input", "xpath:idRelative"],
+        ["xpath=//tr[5]/td/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc71ab24-2881-42a6-b696-c696494a53dc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.active .datepicker--nav-title",
+      "targets": [
+        ["css=.active .datepicker--nav-title", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='datepickers-container']/div/nav/button", "xpath:idRelative"],
+        ["xpath=//nav/button", "xpath:position"],
+        ["xpath=//button[contains(.,'九月, 2019')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "908a6f60-6e30-4ca8-a3fd-2fe710b68eec",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.active .datepicker--nav-title",
+      "targets": [
+        ["css=.active .datepicker--nav-title", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='datepickers-container']/div/nav/button", "xpath:idRelative"],
+        ["xpath=//nav/button", "xpath:position"],
+        ["xpath=//button[contains(.,'九月, 2019')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6350017a-9fa3-423f-8d5a-cc72acfdd6f9",
+      "comment": "",
+      "command": "click",
+      "target": "id=date-month-6",
+      "targets": [
+        ["id=date-month-6", "id"],
+        ["css=#date-month-6", "css:finder"],
+        ["xpath=//div[@id='date-month-6']", "xpath:attributes"],
+        ["xpath=//div[@id='datepickers-container']/div/div[2]/div/div/div[7]", "xpath:idRelative"],
+        ["xpath=//div[7]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c58c1ae6-585d-461c-bf05-056fef938418",
+      "comment": "",
+      "command": "click",
+      "target": "id=date-6-一-2019",
+      "targets": [
+        ["id=date-6-一-2019", "id"],
+        ["css=tr:nth-child(1) #date-6-\\4E00-2019", "css:finder"],
+        ["xpath=//button[@id='date-6-一-2019']", "xpath:attributes"],
+        ["xpath=//div[@id='datepickers-container']/div/div[2]/table/tbody/tr/td/button", "xpath:idRelative"],
+        ["xpath=//td/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e0b3b990-3206-4113-ac6b-6c206c504d7a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.active .datepicker--button:nth-child(2)",
+      "targets": [
+        ["css=.active .datepicker--button:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='button'])[40]", "xpath:attributes"],
+        ["xpath=//div[@id='datepickers-container']/div/div[3]/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'完成')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "06ea79ab-f3c2-456c-9160-ec8d76823f1c",
+      "comment": "",
+      "command": "click",
+      "target": "id=MainContent_btn_ok",
+      "targets": [
+        ["id=MainContent_btn_ok", "id"],
+        ["name=ctl00$MainContent$btn_ok", "name"],
+        ["css=#MainContent_btn_ok", "css:finder"],
+        ["xpath=//input[@id='MainContent_btn_ok']", "xpath:attributes"],
+        ["xpath=//article[@id='content']/div/input", "xpath:idRelative"],
+        ["xpath=//article/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f07b3e1-5633-4318-9e3c-961541c6ab5d",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=#tpl4_upsell-calendar-bound0_cell-price-selected-bound-0 > .price",
+      "targets": [
+        ["css=#tpl4_upsell-calendar-bound0_cell-price-selected-bound-0 > .price", "css:finder"],
+        ["xpath=//span[@id='tpl4_upsell-calendar-bound0_cell-price-selected-bound-0']/span[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/span/span[2]", "xpath:position"]
+      ],
+      "value": "15000"
+    }, {
+      "id": "09889a2a-8fe6-46e7-b8c2-93a2bb412caa",
+      "comment": "",
+      "command": "times",
+      "target": "20",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0db830ab-0449-4504-9dda-09cea14f9e8e",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=#tpl4_upsell-calendar-bound0_cell-price-selected-bound-0 > .price",
+      "targets": [
+        ["css=#tpl4_upsell-calendar-bound0_cell-price-selected-bound-0 > .price", "css:finder"],
+        ["xpath=//span[@id='tpl4_upsell-calendar-bound0_cell-price-selected-bound-0']/span[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/span/span[2]", "xpath:position"]
+      ],
+      "value": "p_1"
+    }, {
+      "id": "d3f04e7e-7c1f-4b15-b384-e1e2dc52b04f",
+      "comment": "",
+      "command": "echo",
+      "target": "${p_1}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ce97d912-a215-4488-82f7-584200e84634",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icon-circle-arrow-right",
+      "targets": [
+        ["css=.icon-circle-arrow-right", "css:finder"],
+        ["xpath=//div[@id='tpl4_upsell-calendar-bound0']/div/button[2]/i", "xpath:idRelative"],
+        ["xpath=//button[2]/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "41282ca6-9f61-4463-8e10-b224d3b5df66",
+      "comment": "",
+      "command": "click",
+      "target": "css=.calendar-cell:nth-child(6) .calendar-cell-bottom",
+      "targets": [
+        ["css=.calendar-cell:nth-child(6) .calendar-cell-bottom", "css:finder"],
+        ["xpath=//div[@id='tpl4_upsell-calendar-bound0_calendar-bound-0']/div/ul/li[6]/a/div[2]", "xpath:idRelative"],
+        ["xpath=//li[6]/a/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5bd15da4-c757-477b-9e40-f6d89918ab4c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "47dd77ea-40b2-421b-85fa-1a1e352054ce",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.owd-calendar-slide-next",
+      "targets": [
+        ["css=.owd-calendar-slide-next", "css:finder"],
+        ["xpath=//div[@id='tpl4_upsell-calendar-bound0']/div/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3000040-9956-4004-abee-7ef43c474c61",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=#tpl4_upsell-calendar-bound0_cell-price-selected-bound-0 > .price",
+      "targets": [
+        ["css=#tpl4_upsell-calendar-bound0_cell-price-selected-bound-0 > .price", "css:finder"],
+        ["xpath=//span[@id='tpl4_upsell-calendar-bound0_cell-price-selected-bound-0']/span[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/span/span[2]", "xpath:position"]
+      ],
+      "value": "p_2"
+    }, {
+      "id": "6cbbe9f5-0e1a-4f4a-82fa-7a72321332b3",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "7b6c61c3-9974-4468-8214-57687fe45768",
+    "name": "test2",
+    "commands": [{
+      "id": "0f0d8191-5342-4d4b-a1b3-d32c21016823",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "2bfb089d-cb6c-4ff3-837f-d0ee94110981",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["85924263-995a-4d5a-b93e-d1cdb31df36d"]
+  }],
+  "urls": ["https://booking.evaair.com/"],
+  "plugins": []
+}
